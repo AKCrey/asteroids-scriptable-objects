@@ -1,0 +1,10 @@
+.MenuButton {
+}
+
+.MenuButton:hover {
+    scale: 1.05 1.1;
+}
+
+.MenuButton:active {
+    scale: 1 1;
+}

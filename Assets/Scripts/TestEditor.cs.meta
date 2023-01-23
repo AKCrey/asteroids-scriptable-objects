@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a62d1cf910f08304c831c57f0b65dfb0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - gameSettings: {fileID: 11400000, guid: f27e65aae2663cc439eb492a7cf30fc5, type: 2}
+  - floatVariable: {fileID: 11400000, guid: beb4542c9c678f14cb3e3a74aead4314, type: 2}
+  - uxmlFile: {fileID: 9197481963319205126, guid: aa7c28e76c37307438440a06376a4d02, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

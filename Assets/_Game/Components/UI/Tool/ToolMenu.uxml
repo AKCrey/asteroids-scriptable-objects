@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/MenuButton.uss?fileID=7433441132597879392&amp;guid=e1070f80f08dbfb4a9a1dc6174e561fd&amp;type=3#MenuButton" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row; justify-content: flex-start; align-self: flex-start;">
+        <ui:VisualElement name="SecondRoot" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Slider picking-mode="Ignore" label="ThrottlePower" value="42" high-value="10" binding-path="_value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Root" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); justify-content: flex-start; align-self: auto;">
+            <ui:Slider picking-mode="Ignore" label="ThrottlePower" value="42" high-value="10" binding-path="throttlePower" show-input-field="true" name="ThrottlePower" focusable="true" />
+            <ui:Slider picking-mode="Ignore" label="RotaionPower" value="42" high-value="100" focusable="true" binding-path="rotationPower" />
+            <ui:FloatField label="Damage" value="42.2" binding-path="damage" focusable="false" />
+            <ui:Toggle label="EnableDamage" binding-path="enableDamage" />
+            <ui:Button text="Do Stuff" display-tooltip-when-elided="true" name="FilipsKnapp" class="MenuButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

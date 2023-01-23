@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 395422e491154d9abcceab7c93aaef7d, type: 3}
-  m_Name: ThrottlePower
+  m_Script: {fileID: 11500000, guid: 292e88fba8b847b40aaf1208efa434e6, type: 3}
+  m_Name: new GameSettings
   m_EditorClassIdentifier: 
-  _value: 0
+  throttlePower: 5.85
+  rotationPower: 1.7
+  damage: 5.05
+  enableDamage: 0
